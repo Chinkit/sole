@@ -1,0 +1,56 @@
+serial.o: serial.c /home/vivek/tools/x-loader-apex/include/common.h \
+ /home/vivek/tools/x-loader-apex/include/config.h \
+ /home/vivek/tools/x-loader-apex/include/configs/omap3evm.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/cpu.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/omap3430.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/sizes.h \
+ /home/vivek/tools/x-loader-apex/include/linux/types.h \
+ /home/vivek/tools/x-loader-apex/include/linux/config.h \
+ /home/vivek/tools/x-loader-apex/include/linux/posix_types.h \
+ /home/vivek/tools/x-loader-apex/include/linux/stddef.h \
+ /home/vivek/tools/x-loader-apex/include/asm/posix_types.h \
+ /home/vivek/tools/x-loader-apex/include/asm/types.h \
+ /home/vivek/toolchain_folder/arm-2010q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdarg.h \
+ /home/vivek/tools/x-loader-apex/include/asm/setup.h \
+ /home/vivek/tools/x-loader-apex/include/asm/x-load-arm.h \
+ /home/vivek/tools/x-loader-apex/include/ns16550.h
+ns16550.o: ns16550.c /home/vivek/tools/x-loader-apex/include/config.h \
+ /home/vivek/tools/x-loader-apex/include/configs/omap3evm.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/cpu.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/omap3430.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/sizes.h \
+ /home/vivek/tools/x-loader-apex/include/ns16550.h
+onenand.o: onenand.c /home/vivek/tools/x-loader-apex/include/common.h \
+ /home/vivek/tools/x-loader-apex/include/config.h \
+ /home/vivek/tools/x-loader-apex/include/configs/omap3evm.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/cpu.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/omap3430.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/sizes.h \
+ /home/vivek/tools/x-loader-apex/include/linux/types.h \
+ /home/vivek/tools/x-loader-apex/include/linux/config.h \
+ /home/vivek/tools/x-loader-apex/include/linux/posix_types.h \
+ /home/vivek/tools/x-loader-apex/include/linux/stddef.h \
+ /home/vivek/tools/x-loader-apex/include/asm/posix_types.h \
+ /home/vivek/tools/x-loader-apex/include/asm/types.h \
+ /home/vivek/toolchain_folder/arm-2010q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdarg.h \
+ /home/vivek/tools/x-loader-apex/include/asm/setup.h \
+ /home/vivek/tools/x-loader-apex/include/asm/x-load-arm.h \
+ /home/vivek/tools/x-loader-apex/include/asm/string.h onenand_regs.h
+k9f1g08r0a.o: k9f1g08r0a.c \
+ /home/vivek/tools/x-loader-apex/include/common.h \
+ /home/vivek/tools/x-loader-apex/include/config.h \
+ /home/vivek/tools/x-loader-apex/include/configs/omap3evm.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/cpu.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/omap3430.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/sizes.h \
+ /home/vivek/tools/x-loader-apex/include/linux/types.h \
+ /home/vivek/tools/x-loader-apex/include/linux/config.h \
+ /home/vivek/tools/x-loader-apex/include/linux/posix_types.h \
+ /home/vivek/tools/x-loader-apex/include/linux/stddef.h \
+ /home/vivek/tools/x-loader-apex/include/asm/posix_types.h \
+ /home/vivek/tools/x-loader-apex/include/asm/types.h \
+ /home/vivek/toolchain_folder/arm-2010q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdarg.h \
+ /home/vivek/tools/x-loader-apex/include/asm/setup.h \
+ /home/vivek/tools/x-loader-apex/include/asm/x-load-arm.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/sys_proto.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/sys_info.h

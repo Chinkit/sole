@@ -1,0 +1,38 @@
+platform.o: platform.S /home/vivek/tools/x-loader-apex/include/config.h \
+ /home/vivek/tools/x-loader-apex/include/configs/omap3evm.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/cpu.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/omap3430.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/sizes.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/mem.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/clocks.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/clocks343x.h
+omap3evm.o: omap3evm.c /home/vivek/tools/x-loader-apex/include/common.h \
+ /home/vivek/tools/x-loader-apex/include/config.h \
+ /home/vivek/tools/x-loader-apex/include/configs/omap3evm.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/cpu.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/omap3430.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/sizes.h \
+ /home/vivek/tools/x-loader-apex/include/linux/types.h \
+ /home/vivek/tools/x-loader-apex/include/linux/config.h \
+ /home/vivek/tools/x-loader-apex/include/linux/posix_types.h \
+ /home/vivek/tools/x-loader-apex/include/linux/stddef.h \
+ /home/vivek/tools/x-loader-apex/include/asm/posix_types.h \
+ /home/vivek/tools/x-loader-apex/include/asm/types.h \
+ /home/vivek/toolchain_folder/arm-2010q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdarg.h \
+ /home/vivek/tools/x-loader-apex/include/asm/setup.h \
+ /home/vivek/tools/x-loader-apex/include/asm/x-load-arm.h \
+ /home/vivek/tools/x-loader-apex/include/command.h \
+ /home/vivek/tools/x-loader-apex/include/part.h \
+ /home/vivek/tools/x-loader-apex/include/ide.h \
+ /home/vivek/tools/x-loader-apex/include/fat.h \
+ /home/vivek/tools/x-loader-apex/include/asm/byteorder.h \
+ /home/vivek/tools/x-loader-apex/include/linux/byteorder/little_endian.h \
+ /home/vivek/tools/x-loader-apex/include/linux/byteorder/swab.h \
+ /home/vivek/tools/x-loader-apex/include/linux/byteorder/generic.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/bits.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/mux.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/sys_proto.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/sys_info.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/clocks.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/clocks343x.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/mem.h

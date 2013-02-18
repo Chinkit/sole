@@ -1,0 +1,50 @@
+_udivsi3.o: _udivsi3.S
+_umodsi3.o: _umodsi3.S
+board.o: board.c /home/vivek/tools/x-loader-apex/include/common.h \
+ /home/vivek/tools/x-loader-apex/include/config.h \
+ /home/vivek/tools/x-loader-apex/include/configs/omap3evm.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/cpu.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/omap3430.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/sizes.h \
+ /home/vivek/tools/x-loader-apex/include/linux/types.h \
+ /home/vivek/tools/x-loader-apex/include/linux/config.h \
+ /home/vivek/tools/x-loader-apex/include/linux/posix_types.h \
+ /home/vivek/tools/x-loader-apex/include/linux/stddef.h \
+ /home/vivek/tools/x-loader-apex/include/asm/posix_types.h \
+ /home/vivek/tools/x-loader-apex/include/asm/types.h \
+ /home/vivek/toolchain_folder/arm-2010q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdarg.h \
+ /home/vivek/tools/x-loader-apex/include/asm/setup.h \
+ /home/vivek/tools/x-loader-apex/include/asm/x-load-arm.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/mem.h
+ecc.o: ecc.c /home/vivek/tools/x-loader-apex/include/common.h \
+ /home/vivek/tools/x-loader-apex/include/config.h \
+ /home/vivek/tools/x-loader-apex/include/configs/omap3evm.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/cpu.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/omap3430.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/sizes.h \
+ /home/vivek/tools/x-loader-apex/include/linux/types.h \
+ /home/vivek/tools/x-loader-apex/include/linux/config.h \
+ /home/vivek/tools/x-loader-apex/include/linux/posix_types.h \
+ /home/vivek/tools/x-loader-apex/include/linux/stddef.h \
+ /home/vivek/tools/x-loader-apex/include/asm/posix_types.h \
+ /home/vivek/tools/x-loader-apex/include/asm/types.h \
+ /home/vivek/toolchain_folder/arm-2010q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdarg.h \
+ /home/vivek/tools/x-loader-apex/include/asm/setup.h \
+ /home/vivek/tools/x-loader-apex/include/asm/x-load-arm.h
+printf.o: printf.c \
+ /home/vivek/toolchain_folder/arm-2010q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdarg.h \
+ /home/vivek/tools/x-loader-apex/include/common.h \
+ /home/vivek/tools/x-loader-apex/include/config.h \
+ /home/vivek/tools/x-loader-apex/include/configs/omap3evm.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/cpu.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/omap3430.h \
+ /home/vivek/tools/x-loader-apex/include/asm/arch/sizes.h \
+ /home/vivek/tools/x-loader-apex/include/linux/types.h \
+ /home/vivek/tools/x-loader-apex/include/linux/config.h \
+ /home/vivek/tools/x-loader-apex/include/linux/posix_types.h \
+ /home/vivek/tools/x-loader-apex/include/linux/stddef.h \
+ /home/vivek/tools/x-loader-apex/include/asm/posix_types.h \
+ /home/vivek/tools/x-loader-apex/include/asm/types.h \
+ /home/vivek/tools/x-loader-apex/include/asm/setup.h \
+ /home/vivek/tools/x-loader-apex/include/asm/x-load-arm.h
+div0.o: div0.c
